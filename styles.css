@@ -9,6 +9,18 @@ body {
   box-sizing: border-box;
 }
 
+h1 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.header-logo {
+  height: 1em;
+  width: auto;
+  vertical-align: middle;
+}
+
 .main-nav {
   width: 100%;
   background: linear-gradient(rgb(78, 189, 233), #4466bb);
