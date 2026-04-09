@@ -3,10 +3,10 @@
 }
 
 body {
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
   background-color: rgba(30, 100, 255, 0.1);
   text-align: center;
+  box-sizing: border-box;
 }
 
 .main-nav {
@@ -48,7 +48,7 @@ body {
 }
 
 #about {
-  width: 100vw;
+  width: 100%;
   margin-top: 30px;
   border-top: 3px solid navy;
   text-align: center;
@@ -58,7 +58,7 @@ body {
 
 @media (max-width: 768px) {
   #about {
-    width: 100vw;
+    width: 100%;
     margin-top: 40px;
     border-top: 3px solid navy;
     text-align: center;
@@ -136,7 +136,7 @@ video:hover {
 
 #contact {
     background-color: rgba(30, 100, 255, 0.1);
-    width: 100vw;
+    width: 100%;
 }
 
 footer {
