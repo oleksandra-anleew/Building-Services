@@ -47,7 +47,7 @@ body {
 }
 
 #about {
-  width: 100%;
+  width: 100vw;
   margin-top: 30px;
   border-top: 3px solid navy;
   text-align: center;
@@ -57,6 +57,7 @@ body {
 
 @media (max-width: 768px) {
   #about {
+    width: 100vw;
     margin-top: 40px;
     border-top: 3px solid navy;
     text-align: center;
@@ -134,7 +135,7 @@ video:hover {
 
 #contact {
     background-color: rgba(30, 100, 255, 0.1);
-    width: 100%;
+    width: 100vw;
 }
 
 footer {
