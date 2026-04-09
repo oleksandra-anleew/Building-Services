@@ -21,6 +21,17 @@ body {
   z-index: 2;
 }
 
+@media (max-width: 768px) {
+  .main-nav {
+    padding: 2px 15px;
+    text-decoration: none;
+    color: white;
+    background: linear-gradient(#4466bb, rgb(78, 189, 233));
+    border: 1px solid navy;
+    border-radius: 3px;
+  }
+}
+
 .main-nav a {
   text-decoration: none;
   color: white;
@@ -42,6 +53,17 @@ body {
   text-align: center;
   list-style-position: inside;
   background-color: rgba(30, 100, 255, 0.1);
+}
+
+@media (max-width: 768px) {
+  #about {
+    margin: 5px;
+    margin-top: 40px;
+    border-top: 3px solid navy;
+    text-align: center;
+    list-style-position: inside;
+    background-color: rgba(30, 100, 255, 0.1);
+  }
 }
 
 .portfolio-nav a {
@@ -81,6 +103,15 @@ img:hover {
   z-index: 1;
   border-bottom: 3px solid navy;
   border-top: 3px solid navy;
+}
+
+@media (max-width: 768px) {
+  #works {
+    text-align: center;
+    width: 100%;
+    border-bottom: 3px solid navy;
+    border-top: 3px solid navy;
+  }
 }
 
 video {
