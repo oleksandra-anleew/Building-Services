@@ -6,6 +6,7 @@ body {
   width: 100vw;
   height: 100vh;
   background-color: rgba(30, 100, 255, 0.1);
+  text-align: center;
 }
 
 .main-nav {
