@@ -107,7 +107,7 @@ img {
   cursor: pointer;
 }
 
-img:hover {
+img:not(.header-logo):hover {
     transform: scale(2.5);
     margin: 0;
     padding: 0;
