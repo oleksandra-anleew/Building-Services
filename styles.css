@@ -123,6 +123,7 @@ img:hover {
   border-bottom: 3px solid navy;
   border-top: 3px solid navy;
   margin-top: 0;
+  margin-bottom: 0;
 }
 
 @media (max-width: 768px) {
@@ -132,6 +133,7 @@ img:hover {
     border-bottom: 3px solid navy;
     border-top: 3px solid navy;
     margin-top: 0;
+    margin-bottom: 0;
   }
 }
 
@@ -172,6 +174,7 @@ footer {
   height: 20%;
   border-bottom: 3px solid navy;
   background-color: rgba(30, 100, 255, 0.1);
+  width: 70%;
 }
 
 footer a {
